@@ -1,0 +1,104 @@
+3 questão
+#include <stdio.h>
+
+int main() {
+    float n1, n2, n3, n4, media_Aritmetica;
+
+    printf("Informe a sua primeira nota:\n");
+    scanf("%f", &n1);
+
+    printf("Informe a sua segunda nota:\n");
+    scanf("%f", &n2);
+
+    printf("Informe a sua terceira nota:\n");
+    scanf("%f", &n3);
+
+    printf("Informe a sua quarta nota:\n");
+    scanf("%f", &n4);
+
+    media_Aritmetica = (n1 + n2 + n3 + n4) / 4;
+
+    printf("A sua média aritmética é: %.2f\n", media_Aritmetica);
+
+    return 0;
+}
+
+4 questao
+#include <stdio.h>
+
+int main() {
+    float m1, m2, m3, media_Aritmetica;
+
+    printf("Informe o valor gasto no primeiro mês:\n");
+    scanf("%f", &m1);
+
+    printf("Informe o valor gasto no segundo mês:\n");
+    scanf("%f", &m2);
+
+    printf("Informe o valor gasto no terceiro mês:\n");
+    scanf("%f", &m3);
+
+    media_Aritmetica = (m1 + m2 + m3) / 3;
+
+    printf("A média aritmética é: %.2f\n", media_Aritmetica);
+
+    return 0;
+}
+
+5 questao 
+#include <stdio.h>
+
+int main() {
+    float altura, peso_ideal;
+    const float k = 72.7;
+    const int b = 58;
+
+    printf("Informe sua altura:\n");
+    scanf("%f", &altura);
+
+    peso_ideal = k * altura - b;
+
+    printf("O seu peso ideal é: %.2f\n", peso_ideal);
+
+    return 0;
+}
+
+6 questao
+#include <stdio.h>
+
+int main() {
+    float x, y, troca;
+
+    printf("Informe seu primeiro número:\n");
+    scanf("%f", &x);
+
+    printf("Informe seu segundo número:\n");
+    scanf("%f", &y);
+
+    troca = x;
+    x = y;
+    y = troca;
+
+    printf("O valor trocado de x é %.2f e o valor trocado de y é %.2f\n", x, y);
+
+    return 0;
+}
+
+7 questao
+#include <stdio.h>
+
+int main() {
+    float raio, diametro, comprimento, area;
+
+    printf("Informe o valor do raio:\n");
+    scanf("%f", &raio);
+
+    diametro = raio * 2;
+    comprimento = 3.14 * diametro;
+    area = 3.14 * raio * raio;
+
+    printf("Como o raio é %.2f, o diâmetro será %.2f, o comprimento será %.2f e a área será %.2f\n", 
+           raio, diametro, comprimento, area);
+
+    return 0;
+}
