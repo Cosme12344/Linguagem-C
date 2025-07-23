@@ -3,12 +3,12 @@
 
 int main()
 {
-    int 1;
+    int a;
 
     printf("qual numero vc deseja saber se é par ou impar??: ");
-    scanf("%d", &1);
+    scanf("%d", &a);
 
-    if(1%2==0){
+    if(a%2==0){
         printf("O numero informado é par.");
     }else{
         printf("O numero informado é impar.");
