@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int 1;
+
+    printf("qual numero vc deseja saber se é par ou impar??: ");
+    scanf("%d", &1);
+
+    if(1%2==0){
+        printf("O numero informado é par.");
+    }else{
+        printf("O numero informado é impar.");
+    }
+}
