@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a, b;
+
+    printf("qual primeiro numero?: ");
+    scanf("%d", &a);
+    printf("qual segundo numero?: ");
+    scanf("%d", &b);
+
+    if (a%b==0){
+        printf("eles são multiplos.");
+    }else{
+        printf("eles nao são multiplos.");
+    }
+}
