@@ -5,7 +5,7 @@ int main()
 {
     int a;
 
-    printf("qual numero vc deseja saber se é par ou impar??: ");
+    printf("Informe o numero que vc deseja saber se é par ou impar: ");
     scanf("%d", &a);
 
     if(a%2==0){
